@@ -337,8 +337,8 @@ section .ect p{
 
 .coffee .text1{
   position: absolute;
-  left: 60%;
-  top: 25%;
+  left: 57%;
+  top: 23%;
   height: 100%;
   margin: 0 auto;
 }
@@ -350,7 +350,7 @@ section .ect p{
 }
 
 .coffee .text-right .fs-16{
-  line-height: 23px;
+  line-height: 30px;
   margin-bottom: 25px;
 }
 
@@ -410,10 +410,6 @@ section .ect p{
   height: 500px;
 }
 
-.bean2 .bean-img{
-  margin-right: 150px;
-}
-
 .bean2 .text-right p:first-child{
   color: #336beb;
   font-weight: 600;
@@ -427,7 +423,7 @@ section .ect p{
   color: #193472;
 }
 
-.bean2 .text-right p.fs-18:nth-of-type(2){
+.bean2 .text-right p.fs-16:nth-of-type(2){
   color: #222;
   line-height: 30px;
   margin-bottom: 30px;
@@ -439,8 +435,117 @@ section .ect p{
   color: #193472;
 }
 
+.event{
+  width: 100%;
+  height: 400px;
+  background: url('../img/star/main/event-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.event .text-right{
+  position: absolute;
+  color: #fff;
+  left: 57%;
+  top: 120px;
+}
 
+.event .text-right .fs-16{
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.event .text-right .button{
+  margin: 0;
+  border-color: #fff;
+  color: #fff;
+}
+
+.event .text-right .button:hover{
+  color: #4a4a4a;
+}
+
+.event2{
+  width: 100%;
+  height: 800px;
+  background: url('../img/star/main/event2-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.event2 .event2-box{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event2 .event-text{
+  color: #fff;
+  text-align: right;
+  margin-right: 100px;
+}
+
+.event2 .event-img{
+  margin-left: 100px;
+}
+
+.event2 .event-text .button{
+  margin: 0;
+  margin-top: 30px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.event2 .event-text h2{
+  padding: 20px 0;
+}
+
+.event2 .event-text p{
+  margin-bottom: 5px;
+}
+
+.event2 .event-text .button:hover{
+  color: #4a4a4a;
+}
+
+.magazine{
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magazine .maga-img{
+  display: inline-block;
+  padding-right: 100px;
+  border-right: 1px solid #666;
+  z-index: 10;
+}
+
+.magazine .maga1{
+  display: block;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.magazine .maga2{
+  padding-left: 100px;
+  font-weight: bold;
+  color: #222;
+}
+
+.magazine .maga2::before{
+  content: '';
+  position: absolute;
+  left: 35%;
+  top: 55%;
+  width: 1000px;
+  height: 1px;
+  background: #666;
+}
 /* section .row > h2:before{
   width: 120px;
   height: 1px;

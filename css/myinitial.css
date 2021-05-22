@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body{ font-family: 'GmarketSansMedium', 'Montserrat', 'Montaga', sans-serif; color: #666666; }
+body{ font-family: 'GmarketSansMedium', 'Montserrat', sans-serif; color: #666666; }
 body{ color: #666666; }
 *{ margin: 0; padding: 0; }
 ul,ol{ list-style: none; }
@@ -155,6 +155,12 @@ align-items: baseline; */
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*
 	TODO remove settings on BODY since we can't namespace it.
 */
@@ -218,7 +224,7 @@ input, textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; 
 .montaga-font { font-family: 'Montaga'; font-weight: 400; }
 
 .montserrat-font { font-family: 'Montserrat'; }
-
+/* 둥근 영어폰트 */
 .gmarket-font { font-family: 'GmarketSansMedium'; }
 
 .nanum-font{ font-family: 'NanumSquare', sans-serif; }
