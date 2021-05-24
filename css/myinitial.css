@@ -175,7 +175,7 @@ fieldset,img {border:0;}
 	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
 */
 address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
-ol,ul {list-style:none;}
+ol,ul,li,a {list-style:none;}
 caption,
 th {text-align:left;}
 h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
@@ -333,7 +333,7 @@ input, textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; 
   .fs-16 { font-size: 12px; }
   .fs-18 { font-size: 14px; }
   .fs-20 { font-size: 15px; }
-  .fs-22 { font-size: 17px; }
+  .fs-22 { font-size: 16px; }
   .fs-24 { font-size: 18px; }
   .fs-26 { font-size: 20px; }
   .fs-28 { font-size: 21px; }

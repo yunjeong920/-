@@ -3,10 +3,10 @@ $(function(){
     slidesPerView: 1,
     centeredSlides: true,
     spaceBetween: 30,
-    autoplay: {
-         delay: 7000,
-         disableOnInteraction: false,
-       },
+    // autoplay: {
+    //      delay: 7000,
+    //      disableOnInteraction: false,
+    //    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -50,3 +50,13 @@ $(function(){
   });
 
 });
+
+$(function(){
+  $("dd:not(:first)").css("display","none");
+  $("dl dt").on("click",function(){
+    if( $("+dd",this).css("display") == "none"){
+      $("dl dd").slideUp("slow");
+      $("+dd",this).slideDown("slow");
+    }
+  })
+})
