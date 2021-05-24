@@ -48,8 +48,14 @@
   width: 100%;
   height: 100%;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -216,8 +222,14 @@ section #intro{
 }
 
 #intro .main1{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 230px;
   padding-bottom: 143.5px;
@@ -228,16 +240,28 @@ section #intro{
 }
 
 #intro .main2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 170px;
   padding-bottom: 78.5px;
 }
 
 #intro .main3{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   max-width: 1100px;
   margin: 0 auto;
@@ -298,6 +322,11 @@ section #intro{
   margin-left: 20px;
 }
 
+#intro .mobile-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .swiper-container {
   width: 100%;
@@ -385,9 +414,17 @@ section .ect p{
 .bean .bean1 .text-left{
   width: 65%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   z-index: 20;
 }
@@ -402,8 +439,14 @@ section .ect p{
 .bean .bean2{
   width: 100%;
   height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background-image: url('../img/star/main/bean2_bg.jpg');
   background-repeat: no-repeat;
@@ -481,8 +524,14 @@ section .ect p{
 
 .event2 .event2-box{
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -518,8 +567,14 @@ section .ect p{
 .magazine{
   height: 700px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -563,6 +618,8 @@ section .ect p{
 .store-wrap{
   max-width: 1400px;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
@@ -639,7 +696,11 @@ section .ect p{
 }
 
 .foot-top{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -667,8 +728,14 @@ section .ect p{
 }
 
 .footer2-text{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -702,8 +769,14 @@ section .ect p{
 }
 
 .footer2 .foot-info nav{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -824,11 +897,17 @@ section .ect p{
   .bean .bean1{
     width: 100%;
     height: 211px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .bean .bean1 > img{
     max-width: 960px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
   }
   .bean .bean1 .text-left img{
@@ -869,8 +948,14 @@ section .ect p{
     height: auto;
   }
   .footer2-text{
+    <del>-webkit-box-lines: multiple;</del>
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .footer2-text li{
@@ -1003,9 +1088,17 @@ section .ect p{
   .bean2-mob .mob-center{
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .bean2-mob .mob-center .bean-img{
@@ -1035,9 +1128,17 @@ section .ect p{
   .event2-box{
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .event2-box .event-img img{
@@ -1060,9 +1161,17 @@ section .ect p{
   .maga-mob{
     width: 100%;
     height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   .maga-mob .maga-text{
@@ -1096,10 +1205,14 @@ section .ect p{
 
 @media screen and ( max-width: 550px ) {
   #intro .main1{
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding-bottom: 105px;
   }
   #intro .main2{
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding-bottom: 122px;
   }
@@ -1107,11 +1220,19 @@ section .ect p{
     margin: 0
   }
   #intro .main3{
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   #intro .mobile-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   #intro .main-left2 img{
@@ -1129,8 +1250,14 @@ section .ect p{
   #intro .maintxt{
     margin: 0;
     width: 330px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }
@@ -1161,6 +1288,8 @@ section .ect p{
     height: auto;
   }
   .store-wrap{
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .store-text{
@@ -1185,6 +1314,8 @@ section .ect p{
     margin: 20px auto;
   }
   .footer2 .foot-info nav{
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .footer2 .foot-info li{
