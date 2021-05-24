@@ -3,10 +3,10 @@ $(function(){
     slidesPerView: 1,
     centeredSlides: true,
     spaceBetween: 30,
-    // autoplay: {
-    //      delay: 7000,
-    //      disableOnInteraction: false,
-    //    },
+    autoplay: {
+         delay: 7000,
+         disableOnInteraction: false,
+       },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
