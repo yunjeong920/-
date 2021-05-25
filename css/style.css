@@ -1264,12 +1264,6 @@ section .ect p{
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-}
-
-@media screen and ( max-width: 500px ) {
-  #intro .main-three{
-    padding-bottom: 7px;
-  }
   .bean2-mob .mob-center .bean-img img{
     width: 350px;
     height: auto;
@@ -1281,14 +1275,20 @@ section .ect p{
   .event2-mob .event-text img{
     width: 200px;
     height: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  .fs-28{
+    margin-bottom: 10px;
+  }
+  .fs-22{
+    margin-bottom: 7px;
   }
   .maga-img img{
-    width: 400px;
+    width: 350px;
     height: auto;
   }
   .maga1 img{
-    width: 400px;
+    width: 350px;
     height: auto;
   }
   .store-wrap{
@@ -1324,5 +1324,32 @@ section .ect p{
   }
   .footer2 .foot-info li{
     padding: 10px 0;
+  }
+}
+
+@media screen and ( max-width: 500px ) {
+  #intro .main-three{
+    padding-bottom: 7px;
+  }
+  .bean2-mob .mob-center .bean-img img{
+    width: 300px;
+    height: auto;
+  }
+  .event2-box .event-img img{
+    width: 300px;
+    height: auto;
+  }
+  .event2-mob .event-text img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .maga-img img{
+    width: 300px;
+    height: auto;
+  }
+  .maga1 img{
+    width: 300px;
+    height: auto;
   }
 }
