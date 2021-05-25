@@ -818,6 +818,10 @@ section .ect p{
   #intro .main-three{
     padding-top: 127px;
   }
+  .ect{
+    max-width: 1200px;
+    width: 100%;
+  }
   .bean .bean1{
     height: 265px;
   }
@@ -891,6 +895,10 @@ section .ect p{
   }
   #intro .main-three{
     padding-top: 134px;
+  }
+  .ect{
+    max-width: 960px;
+    width: 100%;
   }
   .coffee{
     height: 400px;
@@ -1051,6 +1059,10 @@ section .ect p{
   }
   #intro .main1{
     padding-bottom: 103px;
+  }
+  .ect{
+    max-width: 767px;
+    width: 100%;
   }
   .coffee{
     width: 100%;
@@ -1263,6 +1275,10 @@ section .ect p{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+  }
+  .ect{
+    max-width: 550px;
+    width: 100%;
   }
   .bean2-mob .mob-center .bean-img img{
     width: 350px;
