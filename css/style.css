@@ -456,6 +456,7 @@ section .ect p{
 .bean2 .bean-img img{
   width: auto;
   height: 500px;
+  overflow: hidden;
 }
 
 .bean2 .text-right p:first-child{
@@ -1107,6 +1108,9 @@ section .ect p{
   }
   .bean2-mob .mob-center .bean-img img{
     margin: 0 auto;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
   }
   .event2-mob{
     width: 100%;
@@ -1208,13 +1212,13 @@ section .ect p{
     -webkit-box-orient: vertical;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-bottom: 105px;
+    padding-bottom: 112px;
   }
   #intro .main2{
     -webkit-box-orient: vertical;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-bottom: 122px;
+    padding-bottom: 128px;
   }
   #intro .main-left{
     margin: 0
@@ -1267,11 +1271,11 @@ section .ect p{
     padding-bottom: 7px;
   }
   .bean2-mob .mob-center .bean-img img{
-    width: 500px;
+    width: 350px;
     height: auto;
   }
   .event2-box .event-img img{
-    width: 450px;
+    width: 400px;
     height: auto;
   }
   .event2-mob .event-text img{

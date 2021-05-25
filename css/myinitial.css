@@ -424,7 +424,7 @@ input, textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; 
   .fs-100 { font-size: 65px; }
    }
 
-@media all and (max-width: 500px) {
+/* @media all and (max-width: 500px) {
 	.fs-10 { font-size: 5px; }
   .fs-12 { font-size: 6px; }
   .fs-14 { font-size: 7px; }
@@ -471,7 +471,7 @@ input, textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; 
   .fs-96 { font-size: 48px; }
   .fs-98 { font-size: 49px; }
   .fs-100 { font-size: 50px; }
-   }
+   } */
 
 /*font-Weight*/
 .fw-100 { font-weight: 100; }
