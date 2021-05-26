@@ -127,7 +127,7 @@ input[type=checkbox]#gnbcheck{ display: none; }
   height: 100px;
   overflow: hidden;
   top: 0;
-  background: #f6f5ef;
+  background: rgba(246, 245, 239, 0.6);
   /* background: #9b704d; */
   z-index: 800;
 }
@@ -175,6 +175,7 @@ input[type=checkbox]#gnbcheck{ display: none; }
 /* section common style */
 section{
   width: 100%;
+  height: 100%;
   margin: 0 auto;
   position: relative;
   background: white;
@@ -358,6 +359,10 @@ section .ect p{
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
+#coffee{
+  width: 100%;
+}
+
 .coffee{
   width: 100%;
   height: 450px;
@@ -404,11 +409,10 @@ section .ect p{
   width: 100%;
   height: 400px;
   background-color: #f2d8bd;
-}
-
-.bean .bean1 > img{
-  position: absolute;
-  right: 0;
+  background-image: url('../img/star/main/bean2.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
 }
 
 .bean .bean1 .text-left{
@@ -796,9 +800,12 @@ section .ect p{
   #intro .main-left{
     margin-right: 100px;
   }
+  #intro .main-left{
+    margin-right: 0px;
+  }
   #intro .main1{
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 117px;
   }
   #intro .main-left img{
     width: 500px;
@@ -810,7 +817,7 @@ section .ect p{
   }
   #intro .main2{
     padding-top: 200px;
-    padding-bottom: 105px;
+    padding-bottom: 120px;
   }
   #intro .main3{
     max-width: 1000px;
@@ -823,7 +830,9 @@ section .ect p{
     width: 100%;
   }
   .bean .bean1{
-    height: 265px;
+    max-width: 1200px;
+    height: 350px;
+    background-size: 100% 100%;
   }
   .bean .bean1 > img{
     max-width: 1200px;
@@ -846,6 +855,9 @@ section .ect p{
   .event2 .event-img img{
     width: 500px;
     height: auto;
+  }
+  .event2 .event-text{
+    margin-right: 30px;
   }
   .magazine .maga-img img{
     width: 350px;
@@ -873,6 +885,7 @@ section .ect p{
   }
   .button{
     padding: 4px 20px;
+    font-size: 12px;
   }
   #intro .main-right img{
     width: 200px;
@@ -904,11 +917,13 @@ section .ect p{
     height: 400px;
   }
   .bean .bean1{
-    width: 100%;
-    height: 211px;
+    max-width: 960px;
+    height: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-position: right;
+    background-size: 100% 100%;
   }
   .bean .bean1 > img{
     max-width: 960px;
@@ -929,6 +944,12 @@ section .ect p{
   .event2 .event-img img{
     width: 400px;
     height: auto;
+  }
+  .event2 .event-text{
+    margin: 0;
+  }
+  .event2 .event-img{
+    margin-left: 50px;
   }
   .magazine .maga-img img{
     width: 300px;
@@ -1058,7 +1079,10 @@ section .ect p{
     padding-top: 148px;
   }
   #intro .main1{
-    padding-bottom: 103px;
+    padding-bottom: 127px;
+  }
+  #intro .main2{
+    padding-bottom: 130px;
   }
   .ect{
     max-width: 767px;
@@ -1139,7 +1163,7 @@ section .ect p{
   }
   .event2-mob{
     width: 100%;
-    height: 900px;
+    height: 1000px;
   }
   .event2-box{
     width: 100%;
@@ -1158,12 +1182,21 @@ section .ect p{
     justify-content: center;
   }
   .event2-box .event-img img{
-    width: 500px;
+    width: 450px;
     height: auto;
   }
   .event2-mob .event-text{
     text-align:center;
     color: #fff;
+  }
+  .event2-mob .event-text2{
+    margin-top: 30px;
+  }
+  .fs-24{
+    margin-bottom: 10px;
+  }
+  .fs-18{
+    margin-bottom: 6px;
   }
   .event2-mob .event-text .button{
     margin: 0;
@@ -1201,7 +1234,7 @@ section .ect p{
     font-size: 14px;
     height: 35px;
     line-height: 35px;
-    text-indent: 10px;
+    text-indent: 25px;
     color: #fff;
     background: #333;
   }
@@ -1210,7 +1243,7 @@ section .ect p{
     font-size: 12px;
     color: #4a4a4a;
     line-height: 30px;
-    padding: 10px 15px
+    padding: 15px 25px;
   }
   .footer2 .btns{
     padding-top: 0;

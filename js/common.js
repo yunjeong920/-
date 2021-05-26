@@ -37,8 +37,9 @@ $(function(){
   });
 
   //section offset top 값으로 class 추가
+  // let navHeight = 100px;
   let wHeight = $(window).innerHeight();
-  console.log("window height: "+wHeight)
+  // console.log("window height: "+wHeight)
   $(window).scroll(function(){
     let thisScrollTop = $(this).scrollTop();
     $("section").each(function(){
