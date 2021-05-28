@@ -1048,6 +1048,9 @@ section .ect p{
   }
   #gnb ul li a{
     color: #fff;
+    padding: 0 25px;
+    height: 70px;
+    line-height: 70px;
   }
 
   #header{
