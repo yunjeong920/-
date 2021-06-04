@@ -126,7 +126,7 @@ input[type=checkbox]#gnbcheck{ display: none; }
   height: 100px;
   overflow: hidden;
   top: 0;
-  background: rgba(246, 245, 239, 0.6);
+  background: rgba(246, 245, 239, 0.92);
   /* background: #9b704d; */
   z-index: 800;
 }
