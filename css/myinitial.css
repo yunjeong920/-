@@ -230,6 +230,12 @@ input, textarea, button {-webkit-appearance:none; -moz-appearance:none; appearan
 
 input, textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; -o-border-radius:0; border-radius:0;}
 
+input:focus{ outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
+button:focus{ outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
+
+.swiper-button-next{outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
+.swiper-button-prev{outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
+.swiper-pagination{outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
 /* 폰트 컬러 */
 .c-black{color:#000000;}
 .c-white{color:#ffffff;}
